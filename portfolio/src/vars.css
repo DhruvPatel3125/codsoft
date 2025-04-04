@@ -8,6 +8,6 @@
 
     /* Fonts*/
 
-    --font-robot:"Roboto";
+    --font-robot: "Roboto", sans-serif;
     
 }

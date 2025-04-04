@@ -1,0 +1,69 @@
+@import "../vars.css";
+
+/* Ensure the imported file exists and contains the necessary variables */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 61px;
+ z-index: 2;
+ /* margin: 0 10%; */
+ position: relative;
+ background-color: var(--color-bg);
+}
+
+.title{
+    font-size: 30px;
+    color: var(--color-text); /* Ensure --color-text is defined in vars.css */
+    text-decoration: none;
+    
+   
+}
+
+.menu{
+    display: flex;
+
+}
+
+.menuItems {
+    display: flex;
+    gap:47px;
+    list-style: none;
+}
+.menuItems a{
+    font-size: 25px;
+    /* color: var(--color-text);  */
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+   position: absolute;
+   right: 0;
+   margin-right: 10%;
+   flex-direction: column;
+    gap: 11px;
+    z-index:3;
+  }
+}
+.menuBtn{
+    display: block;
+    cursor: pointer;
+}
+.menuItems{
+   display: none;
+    flex-direction: column;
+    gap: 13px;
+   align-items: center;
+   border-radius: 10px;
+   background: rgb(25, 55, 109);
+   background: linear-gradient(0deg,rgba(25, 55, 109, 0.8) 0%,rgba(25, 55, 109, 0.8) 100%);
+   padding: 24px 33px;
+   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
