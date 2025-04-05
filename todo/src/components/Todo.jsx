@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from "react-redux"
 import AddForm from "./AddForm"
-import { deleteTodo } from "../features/todo/todoSlice"
+import { deleteTodo, toggleComplete } from "../features/todo/todoSlice"
 import styles from './Todo.module.css'
 
 export default function Todo() {
@@ -11,6 +11,10 @@ export default function Todo() {
         dispatch(deleteTodo(id))
     }
 
+    const handleToggle = (id) => {
+        dispatch(toggleComplete(id))
+    }
+
     return (
         <div className={styles.todoContainer}>
             <h1 className={styles.header}>Todo App</h1>
@@ -18,7 +22,17 @@ export default function Todo() {
             <ul className={styles.todoList}>
                 {todos.map((todo) => (
                     <li key={todo.id} className={styles.todoItem}>
-                        <span className={styles.todoText}>{todo.task}</span>
+                        <div className={styles.todoLeft}>
+                            <input
+                                type="checkbox"
+                                checked={todo.isDone}
+                                onChange={() => handleToggle(todo.id)}
+                                className={styles.checkbox}
+                            />
+                            <span className={`${styles.todoText} ${todo.isDone ? styles.completed : ''}`}>
+                                {todo.task}
+                            </span>
+                        </div>
                         <button 
                             className={styles.deleteBtn}
                             onClick={() => handleDelete(todo.id)}
