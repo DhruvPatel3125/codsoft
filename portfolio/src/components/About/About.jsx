@@ -8,13 +8,18 @@ export default function About() {
         <h2 className={style.title}>About</h2>
         <div className={style.content}>
           <img
-            src={"/assets/about/aboutImage.png"}
+
+            src="/assets/about/aboutImage.png"
             alt="Profile"
             className={style.aboutImage}
           />
           <ul className={style.aboutItems}>
             <li className={style.aboutItem}>
-              <img src={"/assets/about/cursorIcon.png"} alt="Frontend Icon" />
+              <img
+                
+                src="/assets/about/cursorIcon.png"
+                alt="Frontend Icon"
+              />
               <div className={style.aboutItemText}>
                 <h3>Frontend Developer</h3>
                 <p>
@@ -24,7 +29,11 @@ export default function About() {
               </div>
             </li>
             <li className={style.aboutItem}>
-              <img src={"/assets/about/serverIcon.png"} alt="Backend Icon" />
+              <img
+            
+                src="/assets/about/serverIcon.png"
+                alt="Backend Icon"
+              />
               <div className={style.aboutItemText}>
                 <h3>Backend Developer</h3>
                 <p>
@@ -34,7 +43,11 @@ export default function About() {
               </div>
             </li>
             <li className={style.aboutItem}>
-            <img src={"/assets/about/uiIcon.png"} alt="MERN Stack Icon" />
+              <img
+
+                src="/assets/about/uiIcon.png"
+                alt="MERN Stack Icon"
+              />
               <div className={style.aboutItemText}>
                 <h3>MERN Stack Developer</h3>
                 <p>

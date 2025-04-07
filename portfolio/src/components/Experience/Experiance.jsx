@@ -1,20 +1,22 @@
-import React from 'react'
-import styles from "./Expereence.module.css"
-import history from "../../data/history.json"
-import skills from "../../data/skills.json"
+import React from 'react';
+import styles from "./Expereence.module.css";
+import history from "../../data/history.json";
+import skills from "../../data/skills.json";
 
 export default function Experience() {
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.content}>
+        {/* Skills Section */}
         <div className={styles.skills}>
           {skills.map((skill, id) => {
+            const imageName = skill.title.toLowerCase(); // Assumes the image is lowercase!
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
                   <img 
-                    src={`/assets/skills/${skill.title.toLowerCase()}.png`}
+                    src={`/assets/skills/${imageName}.png`} 
                     alt={`${skill.title} Logo`}
                     className={styles.skillImage}
                   />
@@ -24,12 +26,15 @@ export default function Experience() {
             );
           })}
         </div>
+
+        {/* History / Experience Section */}
         <ul className={styles.history}>
           {history.map((historyItem, id) => {
+            const logoName = historyItem.organisation.toLowerCase();
             return (
               <li key={id} className={styles.historyItem}>
                 <img
-                  src={`/assets/history/${historyItem.organisation.toLowerCase()}.png`}
+                  src={`/assets/history/${logoName}.png`} 
                   alt={`${historyItem.organisation} Logo`}
                   className={styles.companyLogo}
                 />
@@ -37,8 +42,8 @@ export default function Experience() {
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - Present`}</p>
                   <ul>
-                    {historyItem.experiences.map((experience, id) => (
-                      <li key={id}>{experience}</li>
+                    {historyItem.experiences.map((experience, i) => (
+                      <li key={i}>{experience}</li>
                     ))}
                   </ul>
                 </div>
@@ -48,5 +53,5 @@ export default function Experience() {
         </ul>
       </div>
     </section>
-  )
+  );
 }
