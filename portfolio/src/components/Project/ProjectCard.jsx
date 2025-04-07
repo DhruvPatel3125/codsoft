@@ -8,12 +8,12 @@ export default function ProjectCard({
     <div className={styles.container}>
      
       <img
-        src={`/assets/${imageSrc}`} 
+        src={`/public/${imageSrc}`} 
         alt={`${title} project screenshot`}
         className={styles.image}
         onError={(e) => {
           e.target.onerror = null;
-          e.target.src = "/assets/projects/fallback.png";
+          e.target.src = "/public/projects/fallback.png";
         }}
       />
 

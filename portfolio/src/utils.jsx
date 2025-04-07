@@ -1,8 +1,8 @@
 export const getSkillImage = (imageName) => {
-    return `/assets/skills/${imageName}.png`;
+    return `/public/skills/${imageName}.png`;
   };
   
   export const getHistoryImage = (imageName) => {
-    return `/assets/history/${imageName}.png`;
+    return `/public/history/${imageName}.png`;
   };
   

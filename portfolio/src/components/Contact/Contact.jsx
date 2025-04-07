@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from "./Contact.module.css";
 
-import emailIcon from "../../../assets/contact/emailIcon.png";
-import linkedinIcon from "../../../assets/contact/LinkedinIcon.png";
-import githubIcon from "../../../assets/contact/githubIcon.png";
+import emailIcon from "../../../public/contact/emailIcon.png";
+import linkedinIcon from "../../../public/contact/LinkedinIcon.png";
+import githubIcon from "../../../public/contact/githubIcon.png";
 
 export default function Contact() {
   return (

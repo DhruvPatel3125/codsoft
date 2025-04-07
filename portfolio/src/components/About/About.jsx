@@ -1,10 +1,10 @@
 import React from "react";
 import style from "./About.module.css";
 
-import aboutImage from "../../../assets/about/aboutImage.png";
-import cursorIcon from "../../../assets/about/cursorIcon.png";
-import serverIcon from "../../../assets/about/serverIcon.png";
-import uiIcon from "../../../assets/about/uiIcon.png";
+import aboutImage from "../../../public/about/aboutImage.png";
+import cursorIcon from "../../../public/about/cursorIcon.png";
+import serverIcon from "../../../public/about/serverIcon.png";
+import uiIcon from "../../../public/about/uiIcon.png";
 
 export default function About() {
   return (
