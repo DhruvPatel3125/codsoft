@@ -1,3 +1,8 @@
-export const getImageUrl = (path) =>{
-    return new URL(`../assets/${path}`, import.meta.url).href
-}
+export const getSkillImage = (imageName) => {
+    return `/assets/skills/${imageName}.png`;
+  };
+  
+  export const getHistoryImage = (imageName) => {
+    return `/assets/history/${imageName}.png`;
+  };
+  

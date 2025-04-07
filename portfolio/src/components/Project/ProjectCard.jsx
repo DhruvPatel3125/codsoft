@@ -6,10 +6,15 @@ export default function ProjectCard({
 }) {
   return (
     <div className={styles.container}>
+     
       <img
         src={`/assets/${imageSrc}`} 
         alt={`${title} project screenshot`}
         className={styles.image}
+        onError={(e) => {
+          e.target.onerror = null;
+          e.target.src = "/assets/projects/fallback.png";
+        }}
       />
 
       <h3 className={styles.title}>{title}</h3>

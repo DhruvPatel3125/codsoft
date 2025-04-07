@@ -8,10 +8,11 @@ export default function Navbar() {
     <nav className={style.navbar}>
       <a className={style.title} href="/">Portfolio</a>
       <div className={style.menu}>
+  
         <img 
           className={style.menuBtn} 
           src={menuOpen ? "/assets/nav/closeIcon.png" : "/assets/nav/menuIcon.png"} 
-          alt="Menu Icon"
+          alt={menuOpen ? "Close Menu Icon" : "Open Menu Icon"}
           onClick={() => setMenuOpen(!menuOpen)} 
         />
         <ul 

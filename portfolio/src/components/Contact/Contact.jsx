@@ -1,6 +1,10 @@
 import React from 'react';
 import styles from "./Contact.module.css";
 
+import emailIcon from "../../../assets/contact/emailIcon.png";
+import linkedinIcon from "../../../assets/contact/LinkedinIcon.png";
+import githubIcon from "../../../assets/contact/githubIcon.png";
+
 export default function Contact() {
   return (
     <div>
@@ -12,7 +16,7 @@ export default function Contact() {
         <ul className={styles.links}>
           <li className={styles.link}>
             <img
-              src="/assets/contact/emailIcon.png" 
+              src={emailIcon}
               alt="Email Icon"
               id="heroImg"
             />
@@ -20,7 +24,7 @@ export default function Contact() {
           </li>
           <li className={styles.link}>
             <img
-              src="/assets/contact/LinkedinIcon.png" 
+              src={linkedinIcon}
               alt="LinkedIn Icon"
               id="heroImg"
             />
@@ -28,7 +32,7 @@ export default function Contact() {
           </li>
           <li className={styles.link}>
             <img
-              src="/assets/contact/githubIcon.png"
+              src={githubIcon}
               alt="GitHub Icon"
               id="heroImg"
             />
