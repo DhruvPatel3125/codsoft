@@ -49,16 +49,48 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    gap: 20px;
+    padding: 15px;
   }
 
-  .text {
-    display: flex;
+  .text h2 {
+    font-size: 4rem;
+  }
+
+  .text p {
+    font-size: 2rem;
+  }
+
+  .link {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+  }
+
+  .link img {
+    width: 30px;
+    height: auto;
+  }
+
+  .link a {
+    font-size: 1.5rem;
   }
 
   .links {
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .text h2 {
+    font-size: 3rem;
+  }
+
+  .text p {
+    font-size: 1.5rem;
+  }
+
+  .link a {
+    font-size: 1.2rem;
   }
 }
