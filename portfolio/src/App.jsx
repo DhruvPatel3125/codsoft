@@ -6,6 +6,7 @@ import About from './components/About/About';
 import Experience from './components/Experience/Experiance';
 import Project from './components/Project/Project';
 import ErrorBoundary from './components/ErrorBoundary';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ErrorBoundary>
         <Project/>
       </ErrorBoundary>
+      <Contact/>
     </div>
   )
 }
