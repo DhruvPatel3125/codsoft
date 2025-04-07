@@ -22,7 +22,6 @@ export default function AddForm() {
                 className={styles.input}
                 value={task}
                 onChange={(e) => setTask(e.target.value)}
-                placeholder="Add a new task..."
             />
             <button type="submit" className={styles.addBtn}>
                 Add Task

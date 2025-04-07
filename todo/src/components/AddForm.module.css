@@ -14,11 +14,11 @@
 
 .input:focus {
   outline: none;
-  border-color: #2196f3;
+  border-color: rgb(48, 112, 164);
 }
 
 .addBtn {
-  background-color: #2196f3;
+  background-color: rgb(83, 152, 209);
   color: white;
   border: none;
   padding: 0.8rem 1.5rem;
@@ -29,5 +29,5 @@
 }
 
 .addBtn:hover {
-  background-color: #1976d2;
+  background-color: rgb(47, 101, 155);
 }
