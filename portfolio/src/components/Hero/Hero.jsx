@@ -18,7 +18,7 @@ export default function Hero() {
 
       <img
         className={styles.menuBtn}
-        src="/public/hero/heroImage.png"
+        src="/hero/heroImage.png"
         alt="Hero Illustration"
         id="heroImg"
       />

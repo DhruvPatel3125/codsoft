@@ -11,7 +11,7 @@ export default function Navbar() {
   
         <img 
           className={style.menuBtn} 
-          src={menuOpen ? "/public/nav/closeIcon.png" : "/public/nav/menuIcon.png"} 
+          src={menuOpen ? "/nav/closeIcon.png" : "/nav/menuIcon.png"} 
           alt={menuOpen ? "Close Menu Icon" : "Open Menu Icon"}
           onClick={() => setMenuOpen(!menuOpen)} 
         />
