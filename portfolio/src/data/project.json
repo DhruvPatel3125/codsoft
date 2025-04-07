@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Redux Routing",
+    "imageSrc": "projects/redux.png",
+    "description": "A React-Redux application showcasing state management, routing, and data fetching. Features include centralized state management with Redux, dynamic product data fetching via API, and seamless navigation using React Router.",
+    "skills": ["React", "Redux", "React Router", "Semantic UI", "API Integration"],
+    "demo": "https://redux12-dhruvs-projects-7db11567.vercel.app/",
+    "source": "https://github.com/DhruvPatel3125/redux",
+    "highlights": [
+      "Redux state management",
+      "API data fetching",
+      "Dynamic components",
+      "React Router navigation",
+      "Semantic UI styling"
+    ]
+  },
+  {
+    "title": "The Mejor Project API",
+    "imageSrc": "projects/mejor.png",
+    "description": "A comprehensive backend solution for CRUD operations with optimal performance. Built with the MERN stack, featuring clean architecture and RESTful design principles.",
+    "skills": ["MongoDB", "Express", "Node", "EJS", "React", "Postman"],
+    "demo": "https://github.com/DhruvPatel3125/mejor_project_api",
+    "source": "https://github.com/DhruvPatel3125/mejor_project_api",
+    "highlights": [
+      "CRUD operations",
+      "RESTful API design",
+      "Error handling",
+      "API documentation",
+      "User authentication",
+      "Scalable architecture"
+    ]
+  },
+  {
+    "title": "Employee Management System",
+    "imageSrc": "projects/emp.png",
+    "description": "A React-based web application with separate dashboards for Admin and Employees. Features task management, user authentication, and real-time updates.",
+    "skills": ["React", "Node.js", "MongoDB", "Express", "JWT"],
+    "demo": "https://employee-managment-system-7wyc.vercel.app/",
+    "source": "https://github.com/DhruvPatel3125/employee_managment_system",
+    "highlights": [
+      "Admin & Employee dashboards",
+      "Task management",
+      "User authentication",
+      "Real-time updates",
+      "Responsive design"
+    ]
+  }
+]

@@ -6,11 +6,12 @@ export default function Hero() {
     <>
       <section className={styles.container}>
         <div className={styles.content}>
-          <h1 className={styles.title}>Hi, I'm Dhruv</h1>
+          <h1 className={styles.title}>Hello, I'm Dhruv</h1>
           <p className={styles.description}>
-            I'm a full-stack developer with using React and NodeJS. Reach out if
-            you'd like to learn more!
-          </p>
+          I'm a MERN Stack Developer specializing in MongoDB, Express.js, React.js, 
+          and Node.js. I build scalable web applications with modern technologies 
+          and best practices. Let's create something amazing together!
+        </p>
           <a href="mailto:dhruvjpatel5@gmail.com" className={styles.contactBtn}>
             Contact Me
           </a>

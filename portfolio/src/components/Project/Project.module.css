@@ -1,0 +1,56 @@
+@import "../../vars.css"
+
+.container {
+  padding: 80px 10%;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--color-text);
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 37px;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects > * {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 60px 5%;
+  }
+  
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "role": "ReactJS Developer",
+        "organisation": "Codsoft",
+        "startDate": "Apr, 2025",
+        "experiences": [
+          "Developed responsive web applications using React.js",
+          "Implemented state management using Redux",
+          "Created reusable UI components",
+          "Built portfolio and todo list applications"
+        ],
+        "imageSrc": "history/codsoft.png"
+      }
+]
