@@ -32,8 +32,7 @@ export default function Post({img}) {
       </div>
       <p className="postDesc">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-        officia architecto deserunt deleniti? Labore ipsum aspernatur magnam
-        fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione
+        officia architecto deserunt dele ratione
         atque, exercitationem quibusdam, reiciendis odio laboriosam?
       </p>
     </div>
