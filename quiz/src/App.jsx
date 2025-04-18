@@ -9,6 +9,10 @@ function App() {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showScore, setShowScore] = useState(false);
   const [answered, setAnswered] = useState(false);
+  //many all state are not used in this code
+  // const [isCorrect, setIsCorrect] = useState(false);
+  // const [isWrong, setIsWrong] = useState(false);
+  
 
   const handleSelect = (isCorrect, index) => {
     setSelectedAnswer(index);
