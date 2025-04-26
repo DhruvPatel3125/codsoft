@@ -1,7 +1,8 @@
-// App.js
 import React, { useState } from "react";
+import Question from "./components/Question/Question";
+import Score from "./components/Score/Score";
 import questions from "./data";
-import "./App.css";
+import styles from "./App.module.css";
 
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -9,16 +10,15 @@ function App() {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showScore, setShowScore] = useState(false);
   const [answered, setAnswered] = useState(false);
-  //many all state are not used in this code
-  // const [isCorrect, setIsCorrect] = useState(false);
-  // const [isWrong, setIsWrong] = useState(false);
-  
 
   const handleSelect = (isCorrect, index) => {
-    setSelectedAnswer(index);
-    setAnswered(true);
-    if (isCorrect) {
-      setScore((prev) => prev + 1);
+    if (!answered) {
+      setSelectedAnswer(index);
+      setAnswered(true);
+      if (isCorrect) {
+        setScore((prev) => prev + 1);
+      }
+      setTimeout(() => handleNext(), 1000);
     }
   };
 
@@ -32,14 +32,6 @@ function App() {
     }
   };
 
-  const handlePrev = () => {
-    if (currentQuestion > 0) {
-      setCurrentQuestion((prev) => prev - 1);
-      setSelectedAnswer(null);
-      setAnswered(false);
-    }
-  };
-
   const handleRestart = () => {
     setCurrentQuestion(0);
     setScore(0);
@@ -49,51 +41,27 @@ function App() {
   };
 
   return (
-    <div className="app">
-      {showScore ? (
-        <div className="score-section">
-          <h2>You scored {score} out of {questions.length}</h2>
-          <button onClick={handleRestart}>Try Again</button>
-        </div>
-      ) : (
-        <div className="quiz-section">
-          <div className="question-count">
-            <span>Question {currentQuestion + 1}</span>/{questions.length}
-          </div>
-
-          <div className="question-text">
-            {questions[currentQuestion].questionText}
-          </div>
-
-          <div className="answer-section">
-            {questions[currentQuestion].answerOptions.map((option, index) => (
-              <button
-                key={index}
-                onClick={() => handleSelect(option.isCorrect, index)}
-                className={`answer-btn ${
-                  selectedAnswer === index
-                    ? option.isCorrect
-                      ? "correct"
-                      : "wrong"
-                    : ""
-                }`}
-                disabled={answered}
-              >
-                {option.answerText}
-              </button>
-            ))}
-          </div>
-
-          <div className="nav-buttons">
-            <button onClick={handlePrev} disabled={currentQuestion === 0}>
-              Prev
-            </button>
-            <button onClick={handleNext} disabled={!answered}>
-              {currentQuestion + 1 === questions.length ? "Finish" : "Next"}
-            </button>
-          </div>
-        </div>
-      )}
+    <div className={styles.container}>
+      <div className={styles.quiz}>
+        <h1 className={styles.title}>Quiz App</h1>
+        {showScore ? (
+          <Score 
+            score={score}
+            totalQuestions={questions.length}
+            onRestart={handleRestart}
+          />
+        ) : (
+          <Question
+            currentQuestion={currentQuestion}
+            totalQuestions={questions.length}
+            questionText={questions[currentQuestion].questionText}
+            options={questions[currentQuestion].answerOptions}
+            selectedAnswer={selectedAnswer}
+            answered={answered}
+            onSelect={handleSelect}
+          />
+        )}
+      </div>
     </div>
   );
 }

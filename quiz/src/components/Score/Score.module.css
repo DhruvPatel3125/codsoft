@@ -1,0 +1,67 @@
+.scoreContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 2rem;
+}
+
+.scoreCard {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.scoreTitle {
+  font-size: 1.875rem;
+  color: #1e293b;
+  margin-bottom: 2rem;
+}
+
+.scoreCircle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #4338ca, #3b82f6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+}
+
+.scoreText {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.scoreDetails {
+  font-size: 1.125rem;
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+.feedback {
+  font-size: 1.25rem;
+  color: #1e293b;
+  margin-bottom: 2rem;
+}
+
+.restartButton {
+  background: linear-gradient(90deg, #4338ca, #3b82f6);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.restartButton:hover {
+  transform: translateY(-2px);
+}
