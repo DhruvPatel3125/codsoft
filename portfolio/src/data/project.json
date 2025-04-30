@@ -1,19 +1,19 @@
-[
-  {
-    "title": "Redux Routing",
-    "imageSrc": "projects/redux.png",
-    "description": "A React-Redux application showcasing state management, routing, and data fetching. Features include centralized state management with Redux, dynamic product data fetching via API, and seamless navigation using React Router.",
-    "skills": ["React", "Redux", "React Router", "Semantic UI", "API Integration"],
-    "demo": "https://redux12-dhruvs-projects-7db11567.vercel.app/",
-    "source": "https://github.com/DhruvPatel3125/redux",
-    "highlights": [
-      "Redux state management",
-      "API data fetching",
-      "Dynamic components",
-      "React Router navigation",
-      "Semantic UI styling"
-    ]
-  },
+[{
+  "title":"Syshop Ecommerce website",
+  "imageSrc":"projects/ecom.png",
+"description":"Developed a full-stack eCommerce web application using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented user authentication with JWT, dynamic product management, shopping cart functionality, and order processing. Utilised React Router for seamless navigation and Axios for API communication. Ensured responsive design for optimal user experience across devices.",
+  "skills": ["MongoDB", "Express", "React", "Redux", "Node.js", "JWT", "Axios"],
+  "demo": "https://github.com/DhruvPatel3125/mern-ecomm",
+  "source": "https://github.com/DhruvPatel3125/mern-ecomm",
+  "highlights": [
+    "User authentication",
+    "Product management", 
+    "Shopping cart",
+    "Order processing",
+    "Responsive design",
+    "API integration"
+  ]
+},
   {
     "title": "The Mejor Project API",
     "imageSrc": "projects/mejor.png",
@@ -44,5 +44,5 @@
       "Real-time updates",
       "Responsive design"
     ]
-  }
+}
 ]
