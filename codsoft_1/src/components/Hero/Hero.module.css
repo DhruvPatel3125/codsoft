@@ -7,8 +7,8 @@
   justify-content: space-between;
   margin-top: 49px;
   z-index: 1;
-  padding: 0 5%;
-  min-height: calc(100vh - 80px);
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .content {
@@ -17,11 +17,10 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
-  max-width: 600px;
 }
 
 .title {
-  font-size: clamp(40px, 8vw, 72px);
+  font-size: 72px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
@@ -35,10 +34,9 @@
 }
 
 .description {
-  font-size: clamp(16px, 4vw, 30px);
+  font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
-  line-height: 1.5;
 }
 
 .contactBtn {
@@ -46,29 +44,32 @@
   background-color: var(--color-primary);
   color: var(--color-text);
   border-radius: 100px;
-  font-size: clamp(16px, 3vw, 30px);
+  font-size: 30px;
   font-weight: 600;
-  padding: clamp(12px, 2vw, 17px) clamp(20px, 3vw, 26px);
+  padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  transition: transform 0.3s ease;
-}
-
-.contactBtn:hover {
-  transform: translateY(-3px);
 }
 
 #heroImg {
-  width: clamp(250px, 40%, 500px);
-  height: auto;
+  width: 50%;
   z-index: 1;
-  border-radius: 50%;
-  animation: floating 3s ease-in-out infinite;
+
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes floating {
-  0% { transform: translate(0, 0px); }
-  50% { transform: translate(0, 10px); }
-  100% { transform: translate(0, -0px); }
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
 .topBlur {
@@ -102,18 +103,9 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
-    text-align: center;
-    padding: 20px 5%;
-    gap: 30px;
   }
 
   .content {
     align-items: center;
-    max-width: 100%;
-  }
-
-  #heroImg {
-    width: 70%;
-    max-width: 300px;
   }
 }
