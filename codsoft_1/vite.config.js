@@ -8,5 +8,10 @@ export default defineConfig({
     modules:{
       localsConvention:'camelCaseOnly',
     }
+  },
+  assetsInclude: ['**/*.pdf'],
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
   }
 })

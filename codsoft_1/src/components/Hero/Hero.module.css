@@ -109,3 +109,77 @@
     align-items: center;
   }
 }
+
+/* ...existing styles... */
+
+.buttonGroup {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.downloadBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.downloadBtn:hover:not(:disabled) {
+  background: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.downloadBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.downloadIcon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.loadingSpinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--color-text);
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.downloading {
+  background: var(--color-primary-dark);
+}
+
+@media screen and (max-width: 768px) {
+  .buttonGroup {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .downloadBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}
