@@ -44,5 +44,55 @@
       "Real-time updates",
       "Responsive design"
     ]
+},
+  {
+    
+      "title": "Login System",
+      "imageSrc": "projects/login.png",
+      "description": "A secure and responsive login system built with Node.js, MongoDB, and EJS. Features user authentication, password hashing, and payment integration using Razorpay.",
+      "skills": ["Node.js", "Express", "MongoDB", "EJS", "Nodemailer", "JWT", "bcrypt", "Razorpay"],
+      "demo": "https://login-qahb.onrender.com",
+      "source": "https://github.com/DhruvPatel3125/login",
+      "highlights": [
+        "Secure user authentication",
+        "Password hashing with bcrypt",
+        "Session management with JWT",
+        "Email notifications using Nodemailer",
+        "Payment integration with Razorpay",
+        "Responsive and clean EJS-based frontend"
+      ]
+},
+{
+    "title": "Blog Website",
+    "imageSrc": "projects/blogify.png",
+    "description": "A dynamic and responsive blog platform built with Node.js, featuring user authentication, image uploads using Multer, and secure session management.",
+    "skills": ["Node.js", "Express", "MongoDB", "EJS", "Multer", "JWT", "bcrypt"],
+    "demo": "https://yotube-blog.onrender.com/",
+    "source": "https://github.com/DhruvPatel3125/yotube-blog",
+    "highlights": [
+      "User authentication and secure login",
+      "Image uploads with Multer",
+      "Dynamic blog post management",
+      "Responsive EJS-based frontend",
+      "Session management with JWT",
+      "Secure password handling with bcrypt"
+    ]
+},
+{
+  "title": "WebSocket App",
+  "imageSrc": "projects/socket.png",
+  "description": "A real-time web application utilizing WebSocket technology for instant communication. Features live messaging, user authentication, and persistent data storage.",
+  "skills": ["Node.js", "Express", "Socket.IO", "MongoDB", "JWT", "bcrypt"],
+  "demo": "https://github.com/DhruvPatel3125/websocket",
+  "source": "https://github.com/DhruvPatel3125/websocket",
+  "highlights": [
+    "Real-time communication with WebSocket (Socket.IO)",
+    "Live messaging system",
+    "User authentication and secure login",
+    "Data persistence with MongoDB",
+    "Responsive frontend (EJS or similar)",
+    "Secure password handling with bcrypt"
+  ]
 }
+
 ]
