@@ -1,98 +1,81 @@
-[{
-  "title":"Syshop Ecommerce website",
-  "imageSrc":"projects/ecom.png",
-"description":"Developed a full-stack eCommerce web application using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented user authentication with JWT, dynamic product management, shopping cart functionality, and order processing. Utilised React Router for seamless navigation and Axios for API communication. Ensured responsive design for optimal user experience across devices.",
-  "skills": ["MongoDB", "Express", "React", "Redux", "Node.js", "JWT", "Axios"],
-  "demo": "https://github.com/DhruvPatel3125/mern-ecomm",
-  "source": "https://github.com/DhruvPatel3125/mern-ecomm",
-  "highlights": [
-    "User authentication",
-    "Product management", 
-    "Shopping cart",
-    "Order processing",
-    "Responsive design",
-    "API integration"
-  ]
-},
+[
   {
-    "title": "The Mejor Project API",
-    "imageSrc": "projects/mejor.png",
-    "description": "A comprehensive backend solution for CRUD operations with optimal performance. Built with the MERN stack, featuring clean architecture and RESTful design principles.",
-    "skills": ["MongoDB", "Express", "Node", "EJS", "React", "Postman"],
-    "demo": "https://github.com/DhruvPatel3125/mejor_project_api",
-    "source": "https://github.com/DhruvPatel3125/mejor_project_api",
+    "title": "Staylix Professional Hotel Booking Platform",
+    "imageSrc": "projects/staylix.png",
+    "description": "A comprehensive full-stack hotel booking platform with real-time analytics, an AI-powered concierge chatbot, automated notifications, and payment processing.",
+    "skills": ["React.js", "Redux Toolkit", "Node.js", "Express.js", "MongoDB", "Socket.IO", "Redis", "Bull Queue", "Groq AI", "RAG", "Razorpay", "Cloudinary", "Make.com", "Leaflet.js", "Recharts"],
+    "demo": "https://github.com/DhruvPatel3125",
+    "source": "https://github.com/DhruvPatel3125",
     "highlights": [
-      "CRUD operations",
-      "RESTful API design",
-      "Error handling",
-      "API documentation",
-      "User authentication",
-      "Scalable architecture"
+      "AI Concierge Chatbot: Uses Groq AI (LLaMA 3.3) and Retrieval-Augmented Generation (RAG) for smart guest assistance.",
+      "Real-time Dashboards: Integrated interactive analytics and data visualization using Recharts and Socket.IO.",
+      "Background Jobs: Implemented automated emails and notification queues using Redis and Bull Queue.",
+      "Integrations: Seamlessly connected Razorpay, Cloudinary storage, Open-Meteo weather forecasts, and Google OAuth."
+    ]
+  },
+  {
+    "title": "Syshop Ecommerce website",
+    "imageSrc": "projects/ecom.png",
+    "description": "Developed a full-stack eCommerce web application using the MERN stack. Implemented user authentication with JWT, dynamic product management, shopping cart functionality, and order processing.",
+    "skills": ["MongoDB", "Express.js", "React.js", "Redux", "Node.js", "JWT", "Axios"],
+    "demo": "https://github.com/DhruvPatel3125/mern-ecomm",
+    "source": "https://github.com/DhruvPatel3125/mern-ecomm",
+    "highlights": [
+      "User authentication and profile management",
+      "Dynamic product search and filtering", 
+      "Interactive shopping cart and checkout flows"
     ]
   },
   {
     "title": "Employee Management System",
     "imageSrc": "projects/emp.png",
-    "description": "A React-based web application with separate dashboards for Admin and Employees. Features task management, user authentication, and real-time updates.",
-    "skills": ["React", "Node.js", "MongoDB", "Express", "JWT"],
+    "description": "A React-based web application with separate dashboards for Admin and Employees. Features task management, user assignment, real-time updates, and stat tracking.",
+    "skills": ["React.js", "Node.js", "MongoDB", "Express.js", "JWT", "CSS Modules"],
     "demo": "https://employee-managment-system-7wyc.vercel.app/",
     "source": "https://github.com/DhruvPatel3125/employee_managment_system",
     "highlights": [
-      "Admin & Employee dashboards",
-      "Task management",
-      "User authentication",
-      "Real-time updates",
-      "Responsive design"
+      "Separate Admin & Employee dashboards",
+      "Assign, complete, and track tasks in real time",
+      "Persistent session authentication with JWT"
     ]
-},
+  },
   {
-    
-      "title": "Login System",
-      "imageSrc": "projects/login.png",
-      "description": "A secure and responsive login system built with Node.js, MongoDB, and EJS. Features user authentication, password hashing, and payment integration using Razorpay.",
-      "skills": ["Node.js", "Express", "MongoDB", "EJS", "Nodemailer", "JWT", "bcrypt", "Razorpay"],
-      "demo": "https://login-qahb.onrender.com",
-      "source": "https://github.com/DhruvPatel3125/login",
-      "highlights": [
-        "Secure user authentication",
-        "Password hashing with bcrypt",
-        "Session management with JWT",
-        "Email notifications using Nodemailer",
-        "Payment integration with Razorpay",
-        "Responsive and clean EJS-based frontend"
-      ]
-},
-{
-    "title": "Blog Website",
+    "title": "Blogify Platform",
     "imageSrc": "projects/blogify.png",
-    "description": "A dynamic and responsive blog platform built with Node.js, featuring user authentication, image uploads using Multer, and secure session management.",
-    "skills": ["Node.js", "Express", "MongoDB", "EJS", "Multer", "JWT", "bcrypt"],
+    "description": "A dynamic blog platform with user sign-up, session-based dashboard, interactive reading view, and media uploading features.",
+    "skills": ["Node.js", "Express.js", "MongoDB", "EJS", "Multer", "JWT", "bcrypt"],
     "demo": "https://yotube-blog.onrender.com/",
     "source": "https://github.com/DhruvPatel3125/yotube-blog",
     "highlights": [
-      "User authentication and secure login",
-      "Image uploads with Multer",
-      "Dynamic blog post management",
-      "Responsive EJS-based frontend",
-      "Session management with JWT",
-      "Secure password handling with bcrypt"
+      "Secure user registration and login flows",
+      "Image uploads with Multer storage handler",
+      "Dynamic content rendering using EJS template engine"
     ]
-},
-{
-  "title": "WebSocket App",
-  "imageSrc": "projects/socket.png",
-  "description": "A real-time web application utilizing WebSocket technology for instant communication. Features live messaging, user authentication, and persistent data storage.",
-  "skills": ["Node.js", "Express", "Socket.IO", "MongoDB", "JWT", "bcrypt"],
-  "demo": "https://github.com/DhruvPatel3125/websocket",
-  "source": "https://github.com/DhruvPatel3125/websocket",
-  "highlights": [
-    "Real-time communication with WebSocket (Socket.IO)",
-    "Live messaging system",
-    "User authentication and secure login",
-    "Data persistence with MongoDB",
-    "Responsive frontend (EJS or similar)",
-    "Secure password handling with bcrypt"
-  ]
-}
-
+  },
+  {
+    "title": "Real-Time WebSocket Chat Application",
+    "imageSrc": "projects/socket.png",
+    "description": "A real-time communication platform utilizing WebSockets for instant chat messaging and user-to-user interactions.",
+    "skills": ["Node.js", "Express.js", "Socket.IO", "MongoDB", "JWT", "bcrypt"],
+    "demo": "https://github.com/DhruvPatel3125/websocket",
+    "source": "https://github.com/DhruvPatel3125/websocket",
+    "highlights": [
+      "Instant bi-directional communication via Socket.IO",
+      "User status display (online/offline indication)",
+      "Chat history persistence with MongoDB"
+    ]
+  },
+  {
+    "title": "Secure Login & Billing System",
+    "imageSrc": "projects/login.png",
+    "description": "A robust user authentication backend system featuring password hashing, secure session tokens, verification emails, and a Razorpay transaction interface.",
+    "skills": ["Node.js", "Express.js", "MongoDB", "EJS", "Nodemailer", "JWT", "bcrypt", "Razorpay"],
+    "demo": "https://login-qahb.onrender.com",
+    "source": "https://github.com/DhruvPatel3125/login",
+    "highlights": [
+      "Cryptographic password hashing using bcrypt",
+      "Nodemailer integration for account emails",
+      "Secure payment checkout checkout utilizing Razorpay API"
+    ]
+  }
 ]

@@ -14,3 +14,79 @@
   position: relative;
   padding-top: 80px; /* Height of navbar */
 }
+
+/* Scroll Progress Bar styling */
+.scrollProgress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-accent-cyan), var(--color-accent-purple), var(--color-accent-pink));
+  z-index: 9999;
+  transition: width 0.1s ease-out;
+}
+
+/* Premium ambient backdrop glow blobs */
+.blobContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.glowBlob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(140px);
+  opacity: 0.25;
+  mix-blend-mode: screen;
+  animation: floatAround 25s infinite alternate ease-in-out;
+}
+
+.blobOne {
+  width: 45vw;
+  height: 45vw;
+  background: radial-gradient(circle, var(--color-accent-cyan) 0%, rgba(0,0,0,0) 70%);
+  top: -10%;
+  left: -10%;
+  animation-duration: 20s;
+}
+
+.blobTwo {
+  width: 55vw;
+  height: 55vw;
+  background: radial-gradient(circle, var(--color-accent-purple) 0%, rgba(0,0,0,0) 70%);
+  top: 30%;
+  right: -15%;
+  animation-duration: 28s;
+  animation-delay: -5s;
+}
+
+.blobThree {
+  width: 40vw;
+  height: 40vw;
+  background: radial-gradient(circle, var(--color-accent-pink) 0%, rgba(0,0,0,0) 70%);
+  bottom: 5%;
+  left: 15%;
+  animation-duration: 24s;
+  animation-delay: -10s;
+}
+
+@keyframes floatAround {
+  0% {
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+  33% {
+    transform: translate(5vw, 10vh) scale(1.1) rotate(120deg);
+  }
+  66% {
+    transform: translate(-5vw, 15vh) scale(0.9) rotate(240deg);
+  }
+  100% {
+    transform: translate(0, 0) scale(1) rotate(360deg);
+  }
+}

@@ -1,0 +1,312 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 40px 0;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, var(--color-accent-cyan), var(--color-accent-purple));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 30px;
+}
+
+/* Tabs Filter Section */
+.tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.tabBtn {
+  background: rgba(25, 55, 109, 0.3);
+  border: 1px solid var(--glass-border);
+  color: var(--color-text-secondary);
+  padding: 10px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all var(--transition-normal);
+  backdrop-filter: blur(10px);
+}
+
+.tabBtn:hover {
+  color: var(--color-text);
+  border-color: var(--color-accent-cyan);
+  box-shadow: 0 0 15px rgba(0, 242, 254, 0.2);
+  transform: translateY(-2px);
+}
+
+.activeTab {
+  background: var(--color-primary);
+  color: var(--color-text);
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 15px rgba(87, 108, 188, 0.4);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.skills {
+  width: 48%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 25px;
+  align-content: flex-start;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 16px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  transition: all var(--transition-normal);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: transparent;
+  transition: background var(--transition-fast);
+}
+
+.skill:hover {
+  transform: translateY(-6px);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Individual neon glows on hover */
+.glowReact:hover::before { background: #61dafb; }
+.glowReact:hover { box-shadow: 0 10px 25px rgba(97, 218, 251, 0.2); }
+
+.glowMongo:hover::before { background: #47a248; }
+.glowMongo:hover { box-shadow: 0 10px 25px rgba(71, 162, 72, 0.2); }
+
+.glowNode:hover::before { background: #6cc24a; }
+.glowNode:hover { box-shadow: 0 10px 25px rgba(108, 194, 74, 0.2); }
+
+.glowHtml:hover::before { background: #e34f26; }
+.glowHtml:hover { box-shadow: 0 10px 25px rgba(227, 79, 38, 0.2); }
+
+.glowCss:hover::before { background: #1572b6; }
+.glowCss:hover { box-shadow: 0 10px 25px rgba(21, 114, 182, 0.2); }
+
+.skillImageContainer {
+  background-color: rgba(11, 36, 71, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  transition: transform var(--transition-normal);
+}
+
+.skill:hover .skillImageContainer {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.skillImageContainer img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.skillTitle {
+  font-size: 16px;
+  font-family: var(--font-roboto);
+  font-weight: 600;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+.skill:hover .skillTitle {
+  color: var(--color-text);
+}
+
+/* History/Experience Cards */
+.history {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 24px;
+  transition: all var(--transition-normal);
+  box-shadow: var(--glass-shadow);
+}
+
+.historyItem:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.companyLogoContainer {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.companyLogo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.historyItemDetails {
+  font-family: var(--font-roboto);
+  flex-grow: 1;
+}
+
+.historyItemDetails h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 4px;
+}
+
+.historyDuration {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-accent-cyan);
+  margin-bottom: 12px;
+}
+
+.historyBullets {
+  list-style-type: none;
+  font-size: 16px;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.historyBullets li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 8px;
+}
+
+.historyBullets li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .skills {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .history {
+    width: 100%;
+  }
+}
+
+.fallbackIcon {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.1), 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.companyLogoFallback {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(25, 55, 109, 0.4);
+  color: var(--color-accent-cyan);
+  font-size: 22px;
+  font-weight: 800;
+  border: 1px solid var(--glass-border);
+  text-shadow: 0 0 8px rgba(0, 242, 254, 0.5);
+}
+
+.atText {
+  color: var(--color-text-secondary);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.typeBadge {
+  margin-left: 12px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.expBadge {
+  background: rgba(0, 242, 254, 0.15);
+  color: var(--color-accent-cyan);
+  border: 1px solid rgba(0, 242, 254, 0.3);
+}
+
+.eduBadge {
+  background: rgba(127, 0, 255, 0.15);
+  color: var(--color-accent-purple);
+  border: 1px solid rgba(127, 0, 255, 0.3);
+}

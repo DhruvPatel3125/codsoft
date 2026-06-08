@@ -1,31 +1,147 @@
 [
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-      "title": "React",
-      "imageSrc": "skills/react.png"
-    },
-    {
-      "title": "Node",
-      "imageSrc": "skills/node.png"
-    },
-    {
-      "title": "express",
-      "imageSrc": "skills/express.png"
-    },
-    {
-      "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
-    },
-    {
-        "title": "Redux",
-        "imageSrc": "skills/redux.png"
-      }
-  ]
-  
+  {
+    "title": "Javascript",
+    "imageSrc": "skills/javascript.png",
+    "category": "languages"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png",
+    "category": "languages"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png",
+    "category": "languages"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/c++.png",
+    "category": "languages"
+  },
+  {
+    "title": "C",
+    "imageSrc": "skills/c.png",
+    "category": "languages"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png",
+    "category": "frontend"
+  },
+  {
+    "title": "Redux Toolkit",
+    "imageSrc": "skills/redux.png",
+    "category": "frontend"
+  },
+  {
+    "title": "RTK Query",
+    "imageSrc": "skills/rtk.png",
+    "category": "frontend"
+  },
+  {
+    "title": "Redux Saga",
+    "imageSrc": "skills/saga.png",
+    "category": "frontend"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png",
+    "category": "frontend"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "skills/bootstrap.png",
+    "category": "frontend"
+  },
+  {
+    "title": "Material UI",
+    "imageSrc": "skills/mui.png",
+    "category": "frontend"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png",
+    "category": "frontend"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png",
+    "category": "frontend"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/node.png",
+    "category": "backend"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/express.png",
+    "category": "backend"
+  },
+  {
+    "title": "Socket.IO",
+    "imageSrc": "skills/socket.png",
+    "category": "backend"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png",
+    "category": "backend"
+  },
+  {
+    "title": "Supabase",
+    "imageSrc": "skills/supabase.png",
+    "category": "backend"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png",
+    "category": "backend"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png",
+    "category": "backend"
+  },
+  {
+    "title": "SQLite",
+    "imageSrc": "skills/sqlite.png",
+    "category": "backend"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "skills/github.png",
+    "category": "tools"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png",
+    "category": "tools"
+  },
+  {
+    "title": "Postman",
+    "imageSrc": "skills/postman.png",
+    "category": "tools"
+  },
+  {
+    "title": "VS Code",
+    "imageSrc": "skills/vscode.png",
+    "category": "tools"
+  },
+  {
+    "title": "Cloudinary",
+    "imageSrc": "skills/cloudinary.png",
+    "category": "tools"
+  },
+  {
+    "title": "Cursor",
+    "imageSrc": "skills/cursor.png",
+    "category": "tools"
+  },
+  {
+    "title": "Replit",
+    "imageSrc": "skills/replit.png",
+    "category": "tools"
+  }
+]
