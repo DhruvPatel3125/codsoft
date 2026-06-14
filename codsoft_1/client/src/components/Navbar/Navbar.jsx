@@ -19,7 +19,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <motion.nav 
+    <motion.nav
       className={`${style.navbar} ${isScrolled ? style.scrolled : ''}`}
       initial={{ opacity: 0, y: -30 }}
       animate={{ opacity: 1, y: 0 }}
@@ -29,17 +29,17 @@ export default function Navbar() {
         <span>D</span>hruv.<span>P</span>atel
       </a>
       <div className={style.menu}>
-        <img 
-          className={style.menuBtn} 
-          src={menuOpen ? "/nav/closeIcon.png" : "/nav/menuIcon.png"} 
+        <img
+          className={style.menuBtn}
+          src={menuOpen ? "/nav/closeIcon.png" : "/nav/menuIcon.png"}
           alt={menuOpen ? "Close Menu Icon" : "Open Menu Icon"}
-          onClick={() => setMenuOpen(!menuOpen)} 
+          onClick={() => setMenuOpen(!menuOpen)}
           onError={(e) => {
             e.target.style.display = 'none';
           }}
         />
         {/* Simple CSS text menu icon fallback if PNG images fail to render */}
-        <div 
+        <div
           className={`${style.menuBtnFallback} ${menuOpen ? style.open : ''}`}
           onClick={() => setMenuOpen(!menuOpen)}
         >
@@ -48,7 +48,7 @@ export default function Navbar() {
           <span></span>
         </div>
 
-        <ul 
+        <ul
           className={`${style.menuItems} ${menuOpen ? style.menuOpen : ''}`}
           onClick={() => setMenuOpen(false)}
         >

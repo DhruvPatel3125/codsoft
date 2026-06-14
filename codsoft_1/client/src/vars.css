@@ -3,18 +3,18 @@
   --color-text: #ffffff;
   --color-text-secondary: #a9c2e6;
   --color-text-muted: #728aa8;
-  
+
   --color-primary: #576cbc;
   --color-primary-dark: #3a4b9c;
   --color-secondary: #19376d;
   --color-dark: #0b2447;
   --color-bg: #030c1b;
-  
+
   /* Neon Accents */
   --color-accent-cyan: #00f2fe;
   --color-accent-pink: #ff007f;
   --color-accent-purple: #7f00ff;
-  
+
   /* Glassmorphism settings */
   --glass-bg: rgba(9, 24, 51, 0.6);
   --glass-border: rgba(255, 255, 255, 0.06);
@@ -31,4 +31,5 @@
   /* Fonts */
   --font-roboto: "Roboto", sans-serif;
   --font-outfit: "Outfit", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
 }
