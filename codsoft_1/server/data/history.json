@@ -1,0 +1,40 @@
+[
+  {
+    "role": "Full-Stack Developer",
+    "organisation": "PlanicsDev Infotech LLP",
+    "startDate": "Oct 2025",
+    "endDate": "June 2026",
+    "experiences": [
+      "Proficient in React.js ecosystem including Redux Toolkit, RTK Query, Redux Saga, Context API, custom hooks, and third-party integrations.",
+      "Experienced in building RESTful APIs and scalable backend services using Node.js, Express.js, Socket.IO, JWT, Redis, and Bull Queue.",
+      "Worked with cloud and storage solutions such as Supabase, Cloudinary, and Multer.",
+      "Implemented secure, performant, and reliable systems through rate limiting, caching, cron jobs, and comprehensive error handling.",
+      "Developed automation workflows using webhooks, routers, iterators, aggregators, and workflow orchestration tools."
+    ],
+    "type": "experience"
+  },
+  {
+    "role": "Node.js Developer",
+    "organisation": "Webito Infotech",
+    "startDate": "May 2025",
+    "endDate": "June 2025",
+    "experiences": [
+      "Gained knowledge of technologies like rate limiting, cron jobs, Socket.io, Razorpay, Multer, JWT, Bcrypt, Nodemailer, and MongoDB's aggregation pipeline.",
+      "Recognized as the only developer on the team to receive special recognition for performance and delivery.",
+      "Designed clean APIs, integrated webhooks, and optimized database queries with MongoDB aggregation pipelines."
+    ],
+    "type": "experience"
+  },
+  {
+    "role": "Bachelors in Computer Application (BCA)",
+    "organisation": "Sutex Bank College",
+    "startDate": "July 2023",
+    "endDate": "May 2026",
+    "experiences": [
+      "Studying Computer Applications with a focus on web technologies, databases, and software engineering.",
+      "Academic Performance: Cumulative GPA of 8.69 / 10.0.",
+      "Built several side projects exploring algorithms, data structures, and responsive user interfaces."
+    ],
+    "type": "education"
+  }
+]

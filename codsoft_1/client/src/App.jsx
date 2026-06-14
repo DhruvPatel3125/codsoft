@@ -8,6 +8,7 @@ import Project from './components/Project/Project';
 import ErrorBoundary from './components/ErrorBoundary';
 import Contact from './components/Contact/Contact';
 import ParticleBackground from './components/ParticleBackground/ParticleBackground';
+import ChatBot from './components/ChatBot/ChatBot';
 
 function App() {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -31,9 +32,9 @@ function App() {
   return (
     <div className={style.App}>
       {/* Scroll indicator bar */}
-      <div 
-        className={style.scrollProgress} 
-        style={{ width: `${scrollProgress}%` }} 
+      <div
+        className={style.scrollProgress}
+        style={{ width: `${scrollProgress}%` }}
       />
 
       {/* Animated vector particle canvas */}
@@ -54,6 +55,7 @@ function App() {
         <Project />
       </ErrorBoundary>
       <Contact />
+      <ChatBot />
     </div>
   );
 }

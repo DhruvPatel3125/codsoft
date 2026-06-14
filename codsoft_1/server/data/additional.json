@@ -1,0 +1,24 @@
+{
+  "about": {
+    "name": "Dhruv Patel",
+    "title": "Senior Full-Stack Developer & AI Engineer",
+    "summary": "Dhruv Patel is a passionate, results-driven developer specializing in Node.js, Express, MongoDB, React, and Redis. He excels at crafting high-performance, real-time backend systems and responsive front-end interfaces with smooth interactive components.",
+    "email": "dhruvjpatel5@gmail.com",
+    "github": "https://github.com/DhruvPatel3125",
+    "linkedin": "https://www.linkedin.com/in/dhruvpatel312/",
+    "portfolio": "https://github.com/DhruvPatel3125",
+    "resumeUrl": "/resume/DhruvPatel_Resume.pdf"
+  },
+  "certifications": [
+    {
+      "title": "Full-Stack Web Development Course",
+      "issuer": "Udemy / Online Platform",
+      "year": "2024",
+      "details": "Comprehensive coverage of MERN stack development, secure user authentication, database design, and cloud deployments."
+    }
+  ],
+  "accomplishments": [
+    "Special recognition award at Webito Infotech for performance and rapid API delivery.",
+    "Achieved an outstanding Cumulative GPA of 8.69 / 10.0 in BCA."
+  ]
+}

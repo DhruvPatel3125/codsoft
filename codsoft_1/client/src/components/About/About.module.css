@@ -114,11 +114,7 @@
 
 @media screen and (max-width: 830px) {
   .container {
-    background: transparent;
-    border: none;
-    box-shadow: none;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 40px 24px;
     margin-left: 5%;
     margin-right: 5%;
   }

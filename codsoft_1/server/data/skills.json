@@ -1,0 +1,118 @@
+[
+  {
+    "title": "Javascript",
+    "category": "languages"
+  },
+  {
+    "title": "Python",
+    "category": "languages"
+  },
+  {
+    "title": "Java",
+    "category": "languages"
+  },
+  {
+    "title": "C++",
+    "category": "languages"
+  },
+  {
+    "title": "C",
+    "category": "languages"
+  },
+  {
+    "title": "React",
+    "category": "frontend"
+  },
+  {
+    "title": "Redux Toolkit",
+    "category": "frontend"
+  },
+  {
+    "title": "RTK Query",
+    "category": "frontend"
+  },
+  {
+    "title": "Redux Saga",
+    "category": "frontend"
+  },
+  {
+    "title": "Tailwind CSS",
+    "category": "frontend"
+  },
+  {
+    "title": "Bootstrap",
+    "category": "frontend"
+  },
+  {
+    "title": "Material UI",
+    "category": "frontend"
+  },
+  {
+    "title": "HTML",
+    "category": "frontend"
+  },
+  {
+    "title": "CSS",
+    "category": "frontend"
+  },
+  {
+    "title": "Node.js",
+    "category": "backend"
+  },
+  {
+    "title": "Express.js",
+    "category": "backend"
+  },
+  {
+    "title": "Socket.IO",
+    "category": "backend"
+  },
+  {
+    "title": "MongoDB",
+    "category": "backend"
+  },
+  {
+    "title": "Supabase",
+    "category": "backend"
+  },
+  {
+    "title": "PostgreSQL",
+    "category": "backend"
+  },
+  {
+    "title": "MySQL",
+    "category": "backend"
+  },
+  {
+    "title": "SQLite",
+    "category": "backend"
+  },
+  {
+    "title": "GitHub",
+    "category": "tools"
+  },
+  {
+    "title": "Docker",
+    "category": "tools"
+  },
+  {
+    "title": "Postman",
+    "category": "tools"
+  },
+  {
+    "title": "VS Code",
+    "category": "tools"
+  },
+  {
+    "title": "Cloudinary",
+    "category": "tools"
+  },
+  {
+    "title": "Cursor",
+    "category": "tools"
+  },
+  {
+    "title": "Replit",
+    "category": "tools"
+  }
+]

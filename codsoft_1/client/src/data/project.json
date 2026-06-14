@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Staylix Professional Hotel Booking Platform",
+    "imageSrc": "projects/staylix.png",
+    "description": "A comprehensive full-stack hotel booking platform with real-time analytics, an AI-powered concierge chatbot, automated notifications, and payment processing.",
+    "skills": ["React.js", "Redux Toolkit", "Node.js", "Express.js", "MongoDB", "Socket.IO", "Redis", "Bull Queue", "Groq AI", "RAG", "Razorpay", "Cloudinary", "Make.com", "Leaflet.js", "Recharts"],
+    "demo": "https://github.com/DhruvPatel3125",
+    "source": "https://github.com/DhruvPatel3125",
+    "highlights": [
+      "AI Concierge Chatbot: Uses Groq AI (LLaMA 3.3) and Retrieval-Augmented Generation (RAG) for smart guest assistance.",
+      "Real-time Dashboards: Integrated interactive analytics and data visualization using Recharts and Socket.IO.",
+      "Background Jobs: Implemented automated emails and notification queues using Redis and Bull Queue.",
+      "Integrations: Seamlessly connected Razorpay, Cloudinary storage, Open-Meteo weather forecasts, and Google OAuth."
+    ]
+  },
+  {
+    "title": "Home-Byts On-Demand Home-Service Chef Marketplace",
+    "imageSrc": "projects/homebyte.png",
+    "description": "A location-aware, on-demand home-service marketplace web application to discover nearby chefs, view availability, schedule bookings, and complete payments.",
+    "skills": ["React.js", "Vite", "Tailwind CSS", "Redux", "Axios", "REST API", "Geolocation", "Firebase"],
+    "demo": "https://github.com/DhruvPatel3125/home-byte",
+    "source": "https://github.com/DhruvPatel3125/home-byte",
+    "highlights": [
+      "Location-Based Discovery: Leveraged geolocation queries to dynamically filter and showcase nearby home chefs.",
+      "Time-Slot Scheduling: Designed a booking system with pricing calculations, slot selection, and collision check logic.",
+      "Centralized State: Structured application state using Redux Toolkit slices, custom React hooks, and localStorage persistence.",
+      "Integrations & Forms: Integrated Axios client wrappers, multi-step validations, Firebase storage, and modular component libraries."
+    ]
+  },
+  {
+    "title": "Syshop Ecommerce website",
+    "imageSrc": "projects/ecom.png",
+    "description": "A robust full-stack eCommerce marketplace powered by the MERN stack, featuring comprehensive product catalogs, secure token sessions, active shopping carts, and dynamic inventory lookups.",
+    "skills": ["MongoDB", "Express.js", "React.js", "Redux", "Node.js", "JWT", "Axios"],
+    "demo": "https://github.com/DhruvPatel3125/mern-ecomm",
+    "source": "https://github.com/DhruvPatel3125/mern-ecomm",
+    "highlights": [
+      "JWT Security Protocols: Configured user registration, password hashing using bcrypt, and token-based state authorization.",
+      "Inventory Management: Programmed complex database queries and aggregations in MongoDB to handle dynamic product listing.",
+      "Interactive Checkout: Developed interactive cart states, checkout panels, and customer summary listings using Redux slices.",
+      "Scalable REST Architecture: Designed modular Express routers, standard middleware error handlers, and Axios API configurations."
+    ]
+  },
+  {
+    "title": "Coza Store - Premium E-Commerce Client UI",
+    "imageSrc": "projects/cozastore.jpg",
+    "description": "A premium retail eCommerce storefront client frontend implementing interactive search, central cart state management, slide-in filter panel, and high fidelity image galleries.",
+    "skills": ["React.js", "Vite", "Redux Toolkit", "React Router", "Bootstrap", "Select2", "Slick Carousel"],
+    "demo": "https://github.com/DhruvPatel3125/coza-store",
+    "source": "https://github.com/DhruvPatel3125/coza-store",
+    "highlights": [
+      "Interactive Shop Operations: Built shopping carts and watchlists with active count updates using Redux Toolkit slices.",
+      "Custom UI Carousels: Structured product gallery view models, filter cards, and image zooms using Slick and Lightbox2.",
+      "Vite Build Flow: Setup a responsive, lightning fast Single Page Application (SPA) skeleton optimized for mobile touch actions.",
+      "Responsive Styling: Integrated vendor animations and mobile layouts utilizing modular CSS styles."
+    ]
+  },
+  {
+    "title": "Employee Management System",
+    "imageSrc": "projects/emp.png",
+    "description": "A React-based web application with separate dashboards for Admin and Employees. Features task management, user assignment, real-time updates, and stat tracking.",
+    "skills": ["React.js", "Node.js", "MongoDB", "Express.js", "JWT", "CSS Modules"],
+    "demo": "https://employee-managment-system-7wyc.vercel.app/",
+    "source": "https://github.com/DhruvPatel3125/employee_managment_system",
+    "highlights": [
+      "Separate Admin & Employee dashboards",
+      "Assign, complete, and track tasks in real time",
+      "Persistent session authentication with JWT"
+    ]
+  },
+  {
+    "title": "Real-Time WebSocket Chat Application",
+    "imageSrc": "projects/socket.png",
+    "description": "A real-time communication platform utilizing WebSockets for instant chat messaging and user-to-user interactions.",
+    "skills": ["Node.js", "Express.js", "Socket.IO", "MongoDB", "JWT", "bcrypt"],
+    "demo": "https://github.com/DhruvPatel3125/websocket",
+    "source": "https://github.com/DhruvPatel3125/websocket",
+    "highlights": [
+      "Instant bi-directional communication via Socket.IO",
+      "User status display (online/offline indication)",
+      "Chat history persistence with MongoDB"
+    ]
+  }
+]
